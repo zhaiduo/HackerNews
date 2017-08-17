@@ -158,7 +158,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
   
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
-    
+    print(indexPath)
     let story = stories[indexPath.row]
     if let url = story.url {
       let webViewController = SFSafariViewController(url: URL(string: url)!)

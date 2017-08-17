@@ -7,3 +7,10 @@
 //
 
 #import <Firebase/Firebase.h>
+
+//#ifndef YourProject_Bridging_Header_h
+//#define YourProject_Bridging_Header_h
+//
+//#import <DeepstreamIO/DeepstreamIO.h>
+//
+//#endif /* YourProject_Bridging_Header_h */
