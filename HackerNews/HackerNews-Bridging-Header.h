@@ -6,11 +6,12 @@
 //  See LICENSE for licensing information.
 //
 
-#import <Firebase/Firebase.h>
+//#import <Firebase/Firebase.h>
 
-//#ifndef YourProject_Bridging_Header_h
-//#define YourProject_Bridging_Header_h
-//
-//#import <DeepstreamIO/DeepstreamIO.h>
-//
-//#endif /* YourProject_Bridging_Header_h */
+#ifndef HackerNews_Bridging_Header_h
+#define HackerNews_Bridging_Header_h
+
+
+#import <DeepstreamIO/DeepstreamIO.h>
+
+#endif /* HackerNews_Bridging_Header_h */
